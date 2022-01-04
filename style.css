@@ -1,13 +1,14 @@
 body{
     margin: 0;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'The Nautigal', cursive; */
 }
 section{
+    display: flex;
+}
+.header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
 }
 .half-width{
     width: 40%;
@@ -24,16 +25,52 @@ section{
     color: orange;
 }
 h1{
-    font-size: 55px;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
     font-weight: bold;
 }
 .hire-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5%;
-    padding: 10px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 .half-width p{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-color{
+    color: rgb(15, 25, 160);
+    font-size: 27px;
+}
+.ex-area h1{
+    margin-bottom: 30px;
+}
+
+.flexible{
+    display: flex;
+}
+.box-add {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+#border-add{
+    border-left: 7px;
+    background-image: linear-gradient(tomato, blue);
+    background-position: 1;
 }
