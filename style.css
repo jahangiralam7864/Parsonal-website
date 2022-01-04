@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 20px;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+}
+.half-width p{
+    margin-bottom: 40px;
+}
