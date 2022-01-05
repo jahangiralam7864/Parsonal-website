@@ -1,9 +1,8 @@
 body{
     margin: 0;
-    /* font-family: 'Roboto', sans-serif;
-    font-family: 'The Nautigal', cursive; */
+    font-style: normal;
 }
-section{
+.flexible{
     display: flex;
 }
 .header{
@@ -12,7 +11,7 @@ section{
 }
 .half-width{
     width: 40%;
-    float: left;
+    /* float: left; */
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 20px;
@@ -25,7 +24,7 @@ section{
     color: orange;
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
 }
 p{
@@ -55,22 +54,56 @@ p{
     color: rgb(15, 25, 160);
     font-size: 27px;
 }
-.ex-area h1{
-    margin-bottom: 30px;
-}
-
-.flexible{
-    display: flex;
-}
-.box-add {
+/* ex-area style  */
+.ex-item{
     width: 40%;
     margin-left: 5%;
-    padding-left: 10px;
-    box-shadow: 10px 10px 40px grey;
+    padding-left: 2%;
     border-radius: 10px;
+    box-shadow: 10px 10px 40px;
 }
-#border-add{
-    border-left: 7px;
-    background-image: linear-gradient(tomato, blue);
-    background-position: 1;
+.ex-contant{
+    font-size: 60px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.ex-parent{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.tomato{
+    color: tomato;
+    font-size: 35px;
+}
+.blue{
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+}
+#border-style-left {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+#border-style-right {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, cyan);
+    border-image-slice: 1;
+}
+.footer-link{
+    text-align: center;
+    background-image: linear-gradient(white,gray);
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.footer-link a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+.footer-link :hover{
+    color: black;
 }
